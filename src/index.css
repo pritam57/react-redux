@@ -5,9 +5,67 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: beige;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.ullist{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  background-color:whitesmoke;
+}
+li{
+  margin-left: 50px;
+}
+.line{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.pl{
+  margin-bottom: 10px;
+}
+.appa{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.linee{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+.cartlist{
+  display: flex;
+  flex-direction: row;
+
+}
+.po{
+  margin-left: 30px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.to{
+margin-left:22px;
+font-size: large;
+
+text-align: center;
+align-items: center;
+justify-content: center;
 }
